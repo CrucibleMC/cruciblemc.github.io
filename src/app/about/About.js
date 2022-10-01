@@ -8,8 +8,8 @@ class About extends React.Component{
                <div className='container xl:max-w-7xl mx-auto my-32'>
                    <div className=''>
                        <h1 className='font-display text-white text-6xl tracking-wide'>About Crucible</h1>
-                       <p className='font-functional text-bright-gray text-2xl mt-4'>Crucible is a Thermos fork with several improvements.</p>
-                       <p className='font-functional text-bright-gray text-2xl mt-4 w-3/4'>We aim to close the gaps left by Thermos and extend the support for those still on 1.7.10 by adding support for long broken mods and plugins and fix serious bugs as they appear. <br/>Developed by server owners for server owners, with experience from our personal servers to deliver a stable software capable of handling populated servers.</p>
+                       <p className='font-functional text-bright-gray text-2xl mt-4 font-medium'>Crucible is a Thermos fork with several improvements.</p>
+                       <p className='font-functional text-bright-gray text-2xl mt-4 w-3/4 font-medium'>We aim to close the gaps left by Thermos and extend the support for those still on 1.7.10 by adding support for long broken mods and plugins and fix serious bugs as they appear. <br/>Developed by server owners for server owners, with experience from our personal servers to deliver a stable software capable of handling populated servers.</p>
                    </div>
                    <div>
                        <h2 className='font-display text-white text-4xl mt-16 tracking-wide'>Features</h2>
