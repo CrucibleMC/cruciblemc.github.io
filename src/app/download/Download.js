@@ -35,8 +35,8 @@ class Download extends React.Component{
 
     render() {
         return (
-            <div className='flex flex-col'>
-                <div className='container mx-auto my-32'>
+            <div id='download' className='flex flex-col'>
+                <div className='container xl:max-w-7xl mx-auto my-32 '>
                     <h1 className='font-display text-base-gray text-6xl tracking-wide mb-4'>Downloads</h1>
                     <h3 className='font-functional text-light-gray text-2xl mt-4 font-medium mb-8'>Last public releases</h3>
                     <div className='flex flex-row justify-start pb-8 border-b border-light-gray'>
@@ -55,10 +55,10 @@ class Download extends React.Component{
                             )
                         })}
                     </div>
-                    <h2 className='font-functional font-bold font-gray text-3xl mt-8 mb-2'>Are you looking for other versions?</h2>
+                    <h2 className='font-functional font-bold text-gray text-3xl mt-8 mb-2'>Are you looking for other versions?</h2>
                     <h3 className='font-functional font-medium text-light-gray text-2xl mb-4'>You can find all builds, on our project page</h3>
-                    <div className='flex flex-row rounded-md download-button bg-base-gray'>
-                        <a href='#' className='flex flex-row px-12 py-6 text-2xl font-bold text-light-green font-functional items-center'>
+                    <div className='flex-none flex-row rounded-2xl download-button bg-base-gray grow-0 self-start max-w-min'>
+                        <a href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer' className='flex flex-row px-8 py-4 text-2xl font-bold text-light-green font-functional items-center'>
                             PROJECT
                             <BsArrowRight className='ml-4 font-bold'/>
                         </a>

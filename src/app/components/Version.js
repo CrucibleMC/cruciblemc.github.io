@@ -5,7 +5,7 @@ class Version extends React.Component{
 
     render() {
         return (
-            <div className={`flex flex-col ${this.props.type === 'Release' ? 'bg-gray' : 'bg-base-gray'} w-80 rounded-md`}>
+            <div className={`flex flex-col ${this.props.type === 'Release' ? 'bg-gray' : 'bg-base-gray'} w-80 rounded-2xl`}>
                 <div className='px-4 py-8'>
                     <h1 className='font-functional text-2xl font-bold text-white mb-2'>{this.props.name}</h1>
                     <h3 className='font-functional text-1xl font-bold tracking-wide text-bright-green mb-8'>{this.props.type} {this.props.version}</h3>

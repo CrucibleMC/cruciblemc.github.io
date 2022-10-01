@@ -15,8 +15,8 @@ class Home extends React.Component{
                   </div>
                   <h3 className='mx-auto sub-home-title text-3xl leading-8 w-3/5 font-functional text-light-gray mb-20'>Crucible is a Forge & Bukkit hybrid based on Thermos with several improvements.</h3>
               </div>
-              <div className='flex flex-row mx-auto rounded-md download-button bg-base-gray'>
-                  <a href='#' className='flex flex-row px-20 py-6 text-3xl font-bold text-light-green font-functional'>
+              <div className='flex flex-row mx-auto rounded-2xl download-button bg-base-gray'>
+                  <a href='#download' className='flex flex-row px-20 py-6 text-3xl font-bold text-light-green font-functional'>
                       DOWNLOAD NOW
                       <RiDownloadLine className='ml-4'/>
                   </a>

@@ -3,6 +3,7 @@ import Home from "./home/Home";
 import Menu from "./menu/Menu";
 import About from "./about/About";
 import Download from "./download/Download";
+import Footer from "./footer/Footer";
 
 class Crucible extends React.Component{
 
@@ -12,12 +13,11 @@ class Crucible extends React.Component{
                 <div className="sticky top-0">
                     <Menu/>
                 </div>
-                <div className="flex flex-col container-lx mx-auto">
-                    <div>
-                        <Home/>
-                    </div>
+                <div className="flex flex-col mx-auto">
+                    <Home/>
                     <About/>
                     <Download/>
+                    <Footer/>
                 </div>
             </div>
         );
