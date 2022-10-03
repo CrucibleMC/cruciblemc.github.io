@@ -36,7 +36,7 @@ class Download extends React.Component{
                 <div className='container w-4/5 md:w-full xl:max-w-7xl mx-auto my-8 md:my-32 '>
                     <h1 className='font-display text-base-gray text-3xl md:text-6xl tracking-wide mb-2 md:mb-4'>Downloads</h1>
                     <h3 className='font-functional text-light-gray text-xl md:text-2xl mt-2 md:mt-4 font-medium mb-8'>Last public releases</h3>
-                    <div className='flex flex-col md:flex-row justify-start md:pb-8 border-b border-light-gray'>
+                    <div className='flex flex-col md:flex-row justify-start md:pb-8 border-b border-light-gray flex-wrap'>
                         {this.state.versions.map(value => {
 
                             return (
