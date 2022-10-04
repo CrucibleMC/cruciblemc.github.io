@@ -17,7 +17,7 @@ class Menu extends React.Component{
         return(
             <div id='menu' className="bg-base-gray z-40 border-b-2 border-b-bright-green flex flex-col">
 
-                <div className="container w-4/5 md:w-full xl:max-w-7xl mx-auto flex flex-row h-16 md:h-20 items-center justify-between items-center flex-row">
+                <div className="container w-4/5 md:w-full xl:max-w-[1200px] mx-auto flex flex-row h-16 md:h-20 items-center justify-between items-center flex-row">
 
                     <h1 className="font-logo text-green text-4xl">CRUCIBLE</h1>
 
@@ -42,11 +42,15 @@ class Menu extends React.Component{
                 <div className="md:hidden mx-auto flex flex-col justify-end rounded self-end">
 
                     <div className={`${this.state.menuOpen ? 'flex' : 'hidden'} flex-col bg-gray absolute top-16 right-10 my-2 min-w-[150px] rounded-2xl sidebar items-end text-white font-functional font-bold`}>
-                        <a className='mt-2 mb-2 mr-4' href="/#home" rel='noreferrer'>HOME</a>
-                        <a className='mb-2 mr-4' href="/#about">ABOUT</a>
-                        <a className='mb-2 mr-4' href="/#download">DOWNLOADS</a>
-                        <a className='mb-2 mr-4' href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer'>PROJECT</a>
-                        <a className='mb-2 mr-4' href="https://discord.gg/jWSTJ4d" target='_blank' rel='noreferrer'>DISCORD</a>
+                        <a className='my-1 mr-4' href="/#home" rel='noreferrer'>HOME</a>
+                        <span className='mx-auto w-4/5 border-b border-b-light-gray'/>
+                        <a className='my-1 mr-4' href="/#about">ABOUT</a>
+                        <span className='mx-auto w-4/5 border-b border-b-light-gray'/>
+                        <a className='my-1 mr-4' href="/#download">DOWNLOADS</a>
+                        <span className='mx-auto w-4/5 border-b border-b-light-gray'/>
+                        <a className='my-1 mr-4' href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer'>PROJECT</a>
+                        <span className='mx-auto w-4/5 border-b border-b-light-gray'/>
+                        <a className='my-1 mr-4' href="https://discord.gg/jWSTJ4d" target='_blank' rel='noreferrer'>DISCORD</a>
                     </div>
 
                 </div>

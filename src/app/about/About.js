@@ -5,7 +5,7 @@ class About extends React.Component{
     render(){
         return (
             <div id='about' className='bg-base-gray flex flex-col'>
-               <div className='container w-4/5 md:w-full xl:max-w-7xl mx-auto my-8 md:my-32'>
+               <div className='container w-4/5 md:w-full xl:max-w-[1200px] mx-auto my-8 md:my-32'>
                    <div className=''>
                        <h1 className='font-display text-white text-3xl md:text-6xl tracking-wide'>About Crucible</h1>
                        <p className='font-functional text-bright-gray text-xl md:text-2xl mt-4 font-medium'>Crucible is a Thermos fork with several improvements.</p>
