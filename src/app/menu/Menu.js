@@ -29,11 +29,11 @@ class Menu extends React.Component{
                     </div>
 
                     <div className="hidden md:flex flex-row text-white font-semibold w-1/2 justify-around">
-                        <a href="/#home" rel='noreferrer'>HOME</a>
-                        <a href="/#about">ABOUT</a>
-                        <a href="/#download">DOWNLOADS</a>
-                        <a href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer'>PROJECT</a>
-                        <a href="https://discord.gg/jWSTJ4d" target='_blank' rel='noreferrer'>DISCORD</a>
+                        <a className='after:content-[""] after:bg-bright-gray after:mt-2 after:block after:h-0.5 after:transition-width after:duration-500 after:w-0 after:hover:w-full' href="/#home" rel='noreferrer'>HOME</a>
+                        <a className='after:content-[""] after:bg-bright-gray after:mt-2 after:block after:h-0.5 after:transition-width after:duration-500 after:w-0 after:hover:w-full' href="/#about">ABOUT</a>
+                        <a className='after:content-[""] after:bg-bright-gray after:mt-2 after:block after:h-0.5 after:transition-width after:duration-500 after:w-0 after:hover:w-full' href="/#download">DOWNLOADS</a>
+                        <a className='after:content-[""] after:bg-bright-gray after:mt-2 after:block after:h-0.5 after:transition-width after:duration-500 after:w-0 after:hover:w-full' href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer'>PROJECT</a>
+                        <a className='after:content-[""] after:bg-bright-gray after:mt-2 after:block after:h-0.5 after:transition-width after:duration-500 after:w-0 after:hover:w-full' href="https://discord.gg/jWSTJ4d" target='_blank' rel='noreferrer'>DISCORD</a>
                     </div>
 
 
@@ -41,7 +41,7 @@ class Menu extends React.Component{
 
                 <div className="md:hidden mx-auto flex flex-col justify-end rounded self-end">
 
-                    <div className={`${this.state.menuOpen ? 'flex' : 'hidden'} flex-col bg-gray absolute top-16 right-10 my-2 min-w-[150px] rounded-2xl sidebar items-end text-white font-functional font-bold`}>
+                    <div className={` tracking-wider ${this.state.menuOpen ? 'flex' : 'hidden'} flex-col justify-between bg-gray absolute top-16 right-10 my-4 py-6 min-w-[180px] text-lg rounded-2xl sidebar items-end text-white font-functional font-bold`}>
                         <a className='my-1 mr-4' href="/#home" rel='noreferrer'>HOME</a>
                         <span className='mx-auto w-4/5 border-b border-b-light-gray'/>
                         <a className='my-1 mr-4' href="/#about">ABOUT</a>

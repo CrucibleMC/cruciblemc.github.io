@@ -55,8 +55,8 @@ class Download extends React.Component{
                     </div>
                     <h2 className='font-functional font-bold text-gray text-2xl md:text-3xl mt-8 mb-2'>Are you looking for other versions?</h2>
                     <h3 className='font-functional font-medium text-light-gray text-xl md:text-2xl mb-4'>You can find all builds, on our project page</h3>
-                    <div className='flex-none flex-row rounded-xl md:rounded-2xl download-button bg-base-gray grow-0 self-start max-w-min'>
-                        <a href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer' className='flex flex-row px-6 md:px-8 py-3 md:py-4 text-xl md:text-2xl font-bold text-light-green font-functional items-center'>
+                    <div className='flex-none flex-row rounded-xl md:rounded-2xl download-button bg-base-gray grow-0 self-start max-w-min text-light-green hover:bg-gray hover:text-green'>
+                        <a href="https://github.com/CrucibleMC/Crucible" target='_blank' rel='noreferrer' className='flex flex-row px-6 md:px-8 py-3 md:py-4 text-xl md:text-2xl font-bold font-functional items-center'>
                             PROJECT
                             <BsArrowRight className='ml-4 font-bold'/>
                         </a>
