@@ -19,7 +19,17 @@ module.exports = {
       functional: ['Roboto', 'sans-serif'],
       display: ['Titan One', 'sans-serif'],
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        appear: {
+          '0%': { opacity: 0},
+          '100%': { opacity: 1},
+        }
+      },
+      animation: {
+        appear: 'appear 0.7s ease-in'
+      }
+    },
   },
   plugins: [],
 }

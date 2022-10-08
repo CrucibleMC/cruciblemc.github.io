@@ -4,7 +4,7 @@ import { RiDownloadLine } from "react-icons/ri";
 class Home extends React.Component{
     render() {
       return(
-          <div id='home' className='flex flex-col mx-auto justify-center text-center h-[80vh]'>
+          <div id='home' className='animate-appear flex flex-col mx-auto justify-center text-center h-[80vh]'>
               <div className='flex flex-col mx-auto'>
                   <div className='flex flex-col mx-auto text-center items-center'>
                       <h1 className='home-title text-3xl w-5/6 md:w-full md:text-6xl font-display text-base-gray'>Empower your server with</h1>
