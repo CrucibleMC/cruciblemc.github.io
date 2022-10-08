@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/cruciblemc/static/css/main.c7978747.css",
-    "main.js": "/cruciblemc/static/js/main.466f1923.js",
-    "index.html": "/cruciblemc/index.html",
-    "main.c7978747.css.map": "/cruciblemc/static/css/main.c7978747.css.map",
-    "main.466f1923.js.map": "/cruciblemc/static/js/main.466f1923.js.map"
+    "main.css": "/static/css/main.c7978747.css",
+    "main.js": "/static/js/main.466f1923.js",
+    "index.html": "/index.html",
+    "main.c7978747.css.map": "/static/css/main.c7978747.css.map",
+    "main.466f1923.js.map": "/static/js/main.466f1923.js.map"
   },
   "entrypoints": [
     "static/css/main.c7978747.css",
